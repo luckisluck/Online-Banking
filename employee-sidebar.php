@@ -1,0 +1,56 @@
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+      <div id="wrapper">
+
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a>
+                       	<p> Welcome Employee</p>
+                        <li>  <img src="e.png" alt="HTML5 Icon" style="width:128px;height:128px;"></li>
+                    </a>
+                </li>
+                <li>
+                    <a href="employee.php"> Employee Page</a>
+                </li>
+                <li>
+                    <a href="employee-info.php">My Information</a>
+                </li>
+                <li>
+                    <a href="employee-customer.php">Customers In Bank</a>
+                </li>
+                <li>
+                    <a href="employee-account.php">Accounts In Bank</a>
+                </li>
+                <li>
+                    <a href="employee-loanre.php">Loan Requesst</a>
+                </li>
+                <li>
+                    <a href="employee-loanon.php">Loan Ongoing</a>
+                </li>
+                <li>
+                    <a href="inboxem.php">Inbox Employee</a>
+                </li>
+                <li>
+                    <a href="emmail.php">Mail</a>
+                </li>
+                <li>
+                    <a href="inboxem.php">Inbox Employee</a>
+                </li>
+            
+                <li>
+                	<a href="employee-logout.php">LOGOUT</a>
+                </li>
+      
+            </ul>
+        </div>

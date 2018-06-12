@@ -1,0 +1,86 @@
+V0.06
+Added dummy box to transfer mail accountstatement
+added side bar
+cant't fix the position of the sidebar
+
+
+
+V 0.05
+Removed shit in the userpage.php
+added following file for future use :
+accstatement.php
+usermail.php
+useraccsetting.php
+
+
+
+V 0.04
+
+Set up header and stuff left template for edit.
+Added clock in branch
+
+V 0.03
+
+
+RegistertoDB.php
+
+-Popup box show whatever failed or successed to add data to database and it will redirect to hometemplate.php
+DBconnect.php
+
+- Delete Address form
+
+Add header_login.php
+
+- Use as head after success login have dropdrop menu service that will add function later
+
+Add New.sql
+
+- Use to import database but still have error on some foreign key.
+- Add auto increment on CustomerID
+
+userpage.php
+
+- add header_login.php 
+
+
+V 0.02
+
+Register.php
+Added varable according to ER digram for customer register in register.php
+The information is sent to RegistertoDB.php to feed information to DB
+Need to remove unwanted variable
+
+RegistertoDB.php
+Can sucessfully feed information to phpmyadmin customer table
+
+DBconnect.php
+Created to connect and link to database
+*NOTE* It does not work in every case please use (or die) fuction to check.
+
+check_login.php
+Use login info from index.php to check login
+Customer can login normally
+Admin can login normally
+have not created way for distinguish between admin and employee yet.
+
+OTHER
+Created userpage.php for customer after login page.
+Created adminpage.php for admin after login page
+
+V 0.01
+Index.php
+
+Added img to branches
+Removoed and replace new icon in services
+changed customer review
+
+Register.php
+
+Implemented bootstrap input box
+Included template from hometemplate.php
+
+hometemplate.php
+
+Implemented template that can be use with page that is not the home page
+Linked the href to index.php
+
